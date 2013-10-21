@@ -7,12 +7,15 @@
 //
 
 #import "AppDelegate.h"
-
+#import "Constants.h"
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    NSUserDefaults *preferences = [NSUserDefaults standardUserDefaults];
+    [preferences registerDefaults:@{kShowPhotoBuildings:@YES}];
+    [preferences registerDefaults:@{kAllowZoom:@YES}];
     return YES;
 }
 							

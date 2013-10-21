@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D516ED57180F05CF00771A81 /* BuildingInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D516ED56180F05CF00771A81 /* BuildingInfo.m */; };
+		D52C4B1E180383A6002943CE /* BuildingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D52C4B1D180383A6002943CE /* BuildingViewController.m */; };
+		D560827C1804AA4C00508E1C /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D560827B1804AA4C00508E1C /* TextViewController.m */; };
+		D5AC2F8818073C37000313A7 /* BuildingImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AC2F8718073C37000313A7 /* BuildingImageViewController.m */; };
+		D5CA159B17FC40FF00C09AA4 /* SearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CA159A17FC40FF00C09AA4 /* SearchModel.m */; };
+		D5CA15A117FC498700C09AA4 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CA15A017FC498700C09AA4 /* TableViewController.m */; };
 		D5D0C34F17FA0BC90031834B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D0C34E17FA0BC90031834B /* UIKit.framework */; };
 		D5D0C35117FA0BC90031834B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D0C35017FA0BC90031834B /* Foundation.framework */; };
 		D5D0C35317FA0BC90031834B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D0C35217FA0BC90031834B /* CoreGraphics.framework */; };
@@ -14,14 +20,68 @@
 		D5D0C35B17FA0BC90031834B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D0C35A17FA0BC90031834B /* main.m */; };
 		D5D0C35F17FA0BC90031834B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D0C35E17FA0BC90031834B /* AppDelegate.m */; };
 		D5D0C36117FA0BC90031834B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D5D0C36017FA0BC90031834B /* Default.png */; };
-		D5D0C36317FA0BC90031834B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5D0C36217FA0BC90031834B /* Default@2x.png */; };
 		D5D0C36517FA0BC90031834B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5D0C36417FA0BC90031834B /* Default-568h@2x.png */; };
 		D5D0C36817FA0BC90031834B /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D0C36617FA0BC90031834B /* MainStoryboard_iPhone.storyboard */; };
 		D5D0C36B17FA0BC90031834B /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D0C36917FA0BC90031834B /* MainStoryboard_iPad.storyboard */; };
 		D5D0C36E17FA0BC90031834B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D0C36D17FA0BC90031834B /* ViewController.m */; };
+		D5D0C38517FA0BE20031834B /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D0C37E17FA0BE20031834B /* libcrypto.a */; };
+		D5D0C38617FA0BE20031834B /* liblber.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D0C37F17FA0BE20031834B /* liblber.a */; };
+		D5D0C38717FA0BE20031834B /* libldap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D0C38017FA0BE20031834B /* libldap.a */; };
+		D5D0C38817FA0BE20031834B /* libsasl2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D0C38117FA0BE20031834B /* libsasl2.a */; };
+		D5D0C38917FA0BE20031834B /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D0C38217FA0BE20031834B /* libssl.a */; };
+		D5D0C38A17FA0BE20031834B /* RHLDAPSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D0C38417FA0BE20031834B /* RHLDAPSearch.m */; };
+		D5D0C38C17FA0DEA0031834B /* Default-568@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5D0C38B17FA0DEA0031834B /* Default-568@2x.png */; };
+		D5D0C38E17FA0E290031834B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5D0C38D17FA0E290031834B /* Default@2x.png */; };
+		D5D0C39217FA10470031834B /* psuSearch.png in Resources */ = {isa = PBXBuildFile; fileRef = D5D0C39117FA10470031834B /* psuSearch.png */; };
+		D5DD808A1803765B00F8F335 /* agadmin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DD806A1803765B00F8F335 /* agadmin.jpg */; };
+		D5DD808B1803765B00F8F335 /* ageng.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DD806B1803765B00F8F335 /* ageng.jpg */; };
+		D5DD808C1803765B00F8F335 /* appliedscience.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DD806C1803765B00F8F335 /* appliedscience.jpg */; };
+		D5DD808D1803765B00F8F335 /* armsby.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DD806D1803765B00F8F335 /* armsby.jpg */; };
+		D5DD808E1803765B00F8F335 /* arts.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DD806E1803765B00F8F335 /* arts.jpg */; };
+		D5DD808F1803765B00F8F335 /* atherton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DD806F1803765B00F8F335 /* atherton.jpg */; };
+		D5DD80901803765B00F8F335 /* beaver.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DD80701803765B00F8F335 /* beaver.jpg */; };
+		D5DD80911803765B00F8F335 /* biomechanics.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DD80711803765B00F8F335 /* biomechanics.jpg */; };
+		D5DD80921803765B00F8F335 /* borland.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DD80721803765B00F8F335 /* borland.jpg */; };
+		D5DD80931803765B00F8F335 /* boucke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DD80731803765B00F8F335 /* boucke.jpg */; };
+		D5DD80941803765B00F8F335 /* brumbaugh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DD80741803765B00F8F335 /* brumbaugh.jpg */; };
+		D5DD80951803765B00F8F335 /* brycejordan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DD80751803765B00F8F335 /* brycejordan.jpg */; };
+		D5DD80961803765B00F8F335 /* buckhout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DD80761803765B00F8F335 /* buckhout.jpg */; };
+		D5DD80971803765B00F8F335 /* burrowes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DD80771803765B00F8F335 /* burrowes.jpg */; };
+		D5DD80981803765B00F8F335 /* businessbuilding.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DD80781803765B00F8F335 /* businessbuilding.jpg */; };
+		D5DD80991803765B00F8F335 /* carnegie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DD80791803765B00F8F335 /* carnegie.jpg */; };
+		D5DD809A1803765B00F8F335 /* carpenter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DD807A1803765B00F8F335 /* carpenter.jpg */; };
+		D5DD809B1803765B00F8F335 /* chambers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DD807B1803765B00F8F335 /* chambers.jpg */; };
+		D5DD809C1803765B00F8F335 /* chandlee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DD807C1803765B00F8F335 /* chandlee.jpg */; };
+		D5DD809D1803765B00F8F335 /* chapel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DD807D1803765B00F8F335 /* chapel.jpg */; };
+		D5DD809E1803765B00F8F335 /* chemistry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DD807E1803765B00F8F335 /* chemistry.jpg */; };
+		D5DD809F1803765B00F8F335 /* computer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DD807F1803765B00F8F335 /* computer.jpg */; };
+		D5DD80A01803765B00F8F335 /* davey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DD80801803765B00F8F335 /* davey.jpg */; };
+		D5DD80A11803765B00F8F335 /* deike.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DD80811803765B00F8F335 /* deike.jpg */; };
+		D5DD80A21803765B00F8F335 /* earthengineeringsciences.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DD80821803765B00F8F335 /* earthengineeringsciences.jpg */; };
+		D5DD80A31803765B00F8F335 /* eeeast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DD80831803765B00F8F335 /* eeeast.jpg */; };
+		D5DD80A41803765B00F8F335 /* eewest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DD80841803765B00F8F335 /* eewest.jpg */; };
+		D5DD80A51803765B00F8F335 /* eisenhower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DD80851803765B00F8F335 /* eisenhower.jpg */; };
+		D5DD80A61803765B00F8F335 /* eisenhowerparking.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DD80861803765B00F8F335 /* eisenhowerparking.jpg */; };
+		D5DD80A71803765B00F8F335 /* engunit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DD80871803765B00F8F335 /* engunit.jpg */; };
+		D5DD80A81803765B00F8F335 /* smeal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DD80881803765B00F8F335 /* smeal.jpg */; };
+		D5DD80A91803765B00F8F335 /* buildings.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5DD80891803765B00F8F335 /* buildings.plist */; };
+		D5FBB8DC180DCED400AB3ABC /* PreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FBB8DB180DCED400AB3ABC /* PreferencesViewController.m */; };
+		D5FBB8DF180DD3CB00AB3ABC /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FBB8DE180DD3CB00AB3ABC /* Constants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D516ED55180F05CF00771A81 /* BuildingInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildingInfo.h; sourceTree = "<group>"; };
+		D516ED56180F05CF00771A81 /* BuildingInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildingInfo.m; sourceTree = "<group>"; };
+		D52C4B1C180383A6002943CE /* BuildingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildingViewController.h; sourceTree = "<group>"; };
+		D52C4B1D180383A6002943CE /* BuildingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildingViewController.m; sourceTree = "<group>"; };
+		D560827A1804AA4C00508E1C /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
+		D560827B1804AA4C00508E1C /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
+		D5AC2F8618073C37000313A7 /* BuildingImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildingImageViewController.h; sourceTree = "<group>"; };
+		D5AC2F8718073C37000313A7 /* BuildingImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildingImageViewController.m; sourceTree = "<group>"; };
+		D5CA159917FC40FF00C09AA4 /* SearchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchModel.h; sourceTree = "<group>"; };
+		D5CA159A17FC40FF00C09AA4 /* SearchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchModel.m; sourceTree = "<group>"; };
+		D5CA159F17FC498700C09AA4 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		D5CA15A017FC498700C09AA4 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
 		D5D0C34B17FA0BC90031834B /* Penn State Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Penn State Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5D0C34E17FA0BC90031834B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D5D0C35017FA0BC90031834B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +99,61 @@
 		D5D0C36A17FA0BC90031834B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		D5D0C36C17FA0BC90031834B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D5D0C36D17FA0BC90031834B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D5D0C37617FA0BE20031834B /* lber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lber.h; sourceTree = "<group>"; };
+		D5D0C37717FA0BE20031834B /* lber_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lber_types.h; sourceTree = "<group>"; };
+		D5D0C37817FA0BE20031834B /* ldap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ldap.h; sourceTree = "<group>"; };
+		D5D0C37917FA0BE20031834B /* ldap_cdefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ldap_cdefs.h; sourceTree = "<group>"; };
+		D5D0C37A17FA0BE20031834B /* ldap_features.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ldap_features.h; sourceTree = "<group>"; };
+		D5D0C37B17FA0BE20031834B /* ldap_schema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ldap_schema.h; sourceTree = "<group>"; };
+		D5D0C37C17FA0BE20031834B /* ldap_utf8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ldap_utf8.h; sourceTree = "<group>"; };
+		D5D0C37E17FA0BE20031834B /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		D5D0C37F17FA0BE20031834B /* liblber.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblber.a; sourceTree = "<group>"; };
+		D5D0C38017FA0BE20031834B /* libldap.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libldap.a; sourceTree = "<group>"; };
+		D5D0C38117FA0BE20031834B /* libsasl2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsasl2.a; sourceTree = "<group>"; };
+		D5D0C38217FA0BE20031834B /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		D5D0C38317FA0BE20031834B /* RHLDAPSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHLDAPSearch.h; sourceTree = "<group>"; };
+		D5D0C38417FA0BE20031834B /* RHLDAPSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHLDAPSearch.m; sourceTree = "<group>"; };
+		D5D0C38B17FA0DEA0031834B /* Default-568@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568@2x.png"; sourceTree = "<group>"; };
+		D5D0C38D17FA0E290031834B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D5D0C38F17FA0EED0031834B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D5D0C39117FA10470031834B /* psuSearch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = psuSearch.png; sourceTree = "<group>"; };
+		D5D0C39317FA104C0031834B /* psuSearch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = psuSearch.png; sourceTree = "<group>"; };
+		D5DD806A1803765B00F8F335 /* agadmin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = agadmin.jpg; sourceTree = "<group>"; };
+		D5DD806B1803765B00F8F335 /* ageng.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ageng.jpg; sourceTree = "<group>"; };
+		D5DD806C1803765B00F8F335 /* appliedscience.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = appliedscience.jpg; sourceTree = "<group>"; };
+		D5DD806D1803765B00F8F335 /* armsby.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = armsby.jpg; sourceTree = "<group>"; };
+		D5DD806E1803765B00F8F335 /* arts.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arts.jpg; sourceTree = "<group>"; };
+		D5DD806F1803765B00F8F335 /* atherton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = atherton.jpg; sourceTree = "<group>"; };
+		D5DD80701803765B00F8F335 /* beaver.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beaver.jpg; sourceTree = "<group>"; };
+		D5DD80711803765B00F8F335 /* biomechanics.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = biomechanics.jpg; sourceTree = "<group>"; };
+		D5DD80721803765B00F8F335 /* borland.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = borland.jpg; sourceTree = "<group>"; };
+		D5DD80731803765B00F8F335 /* boucke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boucke.jpg; sourceTree = "<group>"; };
+		D5DD80741803765B00F8F335 /* brumbaugh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brumbaugh.jpg; sourceTree = "<group>"; };
+		D5DD80751803765B00F8F335 /* brycejordan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brycejordan.jpg; sourceTree = "<group>"; };
+		D5DD80761803765B00F8F335 /* buckhout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = buckhout.jpg; sourceTree = "<group>"; };
+		D5DD80771803765B00F8F335 /* burrowes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burrowes.jpg; sourceTree = "<group>"; };
+		D5DD80781803765B00F8F335 /* businessbuilding.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = businessbuilding.jpg; sourceTree = "<group>"; };
+		D5DD80791803765B00F8F335 /* carnegie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carnegie.jpg; sourceTree = "<group>"; };
+		D5DD807A1803765B00F8F335 /* carpenter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carpenter.jpg; sourceTree = "<group>"; };
+		D5DD807B1803765B00F8F335 /* chambers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chambers.jpg; sourceTree = "<group>"; };
+		D5DD807C1803765B00F8F335 /* chandlee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chandlee.jpg; sourceTree = "<group>"; };
+		D5DD807D1803765B00F8F335 /* chapel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chapel.jpg; sourceTree = "<group>"; };
+		D5DD807E1803765B00F8F335 /* chemistry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chemistry.jpg; sourceTree = "<group>"; };
+		D5DD807F1803765B00F8F335 /* computer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = computer.jpg; sourceTree = "<group>"; };
+		D5DD80801803765B00F8F335 /* davey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = davey.jpg; sourceTree = "<group>"; };
+		D5DD80811803765B00F8F335 /* deike.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = deike.jpg; sourceTree = "<group>"; };
+		D5DD80821803765B00F8F335 /* earthengineeringsciences.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earthengineeringsciences.jpg; sourceTree = "<group>"; };
+		D5DD80831803765B00F8F335 /* eeeast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eeeast.jpg; sourceTree = "<group>"; };
+		D5DD80841803765B00F8F335 /* eewest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eewest.jpg; sourceTree = "<group>"; };
+		D5DD80851803765B00F8F335 /* eisenhower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eisenhower.jpg; sourceTree = "<group>"; };
+		D5DD80861803765B00F8F335 /* eisenhowerparking.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eisenhowerparking.jpg; sourceTree = "<group>"; };
+		D5DD80871803765B00F8F335 /* engunit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = engunit.jpg; sourceTree = "<group>"; };
+		D5DD80881803765B00F8F335 /* smeal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smeal.jpg; sourceTree = "<group>"; };
+		D5DD80891803765B00F8F335 /* buildings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = buildings.plist; sourceTree = "<group>"; };
+		D5FBB8DA180DCED400AB3ABC /* PreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesViewController.h; sourceTree = "<group>"; };
+		D5FBB8DB180DCED400AB3ABC /* PreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesViewController.m; sourceTree = "<group>"; };
+		D5FBB8DD180DD3CB00AB3ABC /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		D5FBB8DE180DD3CB00AB3ABC /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,15 +164,54 @@
 				D5D0C34F17FA0BC90031834B /* UIKit.framework in Frameworks */,
 				D5D0C35117FA0BC90031834B /* Foundation.framework in Frameworks */,
 				D5D0C35317FA0BC90031834B /* CoreGraphics.framework in Frameworks */,
+				D5D0C38517FA0BE20031834B /* libcrypto.a in Frameworks */,
+				D5D0C38617FA0BE20031834B /* liblber.a in Frameworks */,
+				D5D0C38717FA0BE20031834B /* libldap.a in Frameworks */,
+				D5D0C38817FA0BE20031834B /* libsasl2.a in Frameworks */,
+				D5D0C38917FA0BE20031834B /* libssl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D516ED53180F04E300771A81 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5FBB8DA180DCED400AB3ABC /* PreferencesViewController.h */,
+				D5FBB8DB180DCED400AB3ABC /* PreferencesViewController.m */,
+				D5AC2F8618073C37000313A7 /* BuildingImageViewController.h */,
+				D5AC2F8718073C37000313A7 /* BuildingImageViewController.m */,
+				D560827A1804AA4C00508E1C /* TextViewController.h */,
+				D560827B1804AA4C00508E1C /* TextViewController.m */,
+				D52C4B1C180383A6002943CE /* BuildingViewController.h */,
+				D52C4B1D180383A6002943CE /* BuildingViewController.m */,
+				D5CA159F17FC498700C09AA4 /* TableViewController.h */,
+				D5CA15A017FC498700C09AA4 /* TableViewController.m */,
+				D5D0C36C17FA0BC90031834B /* ViewController.h */,
+				D5D0C36D17FA0BC90031834B /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D516ED54180F052A00771A81 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D5CA159917FC40FF00C09AA4 /* SearchModel.h */,
+				D5CA159A17FC40FF00C09AA4 /* SearchModel.m */,
+				D516ED55180F05CF00771A81 /* BuildingInfo.h */,
+				D516ED56180F05CF00771A81 /* BuildingInfo.m */,
+				D516ED53180F04E300771A81 /* Controllers */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		D5D0C34217FA0BC90031834B = {
 			isa = PBXGroup;
 			children = (
+				D5D0C39317FA104C0031834B /* psuSearch.png */,
+				D5D0C38F17FA0EED0031834B /* Default-568h@2x.png */,
+				D5D0C38D17FA0E290031834B /* Default@2x.png */,
 				D5D0C35417FA0BC90031834B /* Penn State Search */,
 				D5D0C34D17FA0BC90031834B /* Frameworks */,
 				D5D0C34C17FA0BC90031834B /* Products */,
@@ -85,12 +239,9 @@
 		D5D0C35417FA0BC90031834B /* Penn State Search */ = {
 			isa = PBXGroup;
 			children = (
-				D5D0C35D17FA0BC90031834B /* AppDelegate.h */,
-				D5D0C35E17FA0BC90031834B /* AppDelegate.m */,
-				D5D0C36617FA0BC90031834B /* MainStoryboard_iPhone.storyboard */,
 				D5D0C36917FA0BC90031834B /* MainStoryboard_iPad.storyboard */,
-				D5D0C36C17FA0BC90031834B /* ViewController.h */,
-				D5D0C36D17FA0BC90031834B /* ViewController.m */,
+				D5D0C36617FA0BC90031834B /* MainStoryboard_iPhone.storyboard */,
+				D516ED54180F052A00771A81 /* Models */,
 				D5D0C35517FA0BC90031834B /* Supporting Files */,
 			);
 			path = "Penn State Search";
@@ -99,6 +250,10 @@
 		D5D0C35517FA0BC90031834B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D5DD80681803765B00F8F335 /* Buildings */,
+				D5D0C39117FA10470031834B /* psuSearch.png */,
+				D5D0C38B17FA0DEA0031834B /* Default-568@2x.png */,
+				D5D0C37417FA0BE20031834B /* ldap */,
 				D5D0C35617FA0BC90031834B /* Penn State Search-Info.plist */,
 				D5D0C35717FA0BC90031834B /* InfoPlist.strings */,
 				D5D0C35A17FA0BC90031834B /* main.m */,
@@ -106,8 +261,96 @@
 				D5D0C36017FA0BC90031834B /* Default.png */,
 				D5D0C36217FA0BC90031834B /* Default@2x.png */,
 				D5D0C36417FA0BC90031834B /* Default-568h@2x.png */,
+				D5D0C35D17FA0BC90031834B /* AppDelegate.h */,
+				D5D0C35E17FA0BC90031834B /* AppDelegate.m */,
+				D5FBB8DD180DD3CB00AB3ABC /* Constants.h */,
+				D5FBB8DE180DD3CB00AB3ABC /* Constants.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5D0C37417FA0BE20031834B /* ldap */ = {
+			isa = PBXGroup;
+			children = (
+				D5D0C37517FA0BE20031834B /* include */,
+				D5D0C37D17FA0BE20031834B /* lib */,
+				D5D0C38317FA0BE20031834B /* RHLDAPSearch.h */,
+				D5D0C38417FA0BE20031834B /* RHLDAPSearch.m */,
+			);
+			path = ldap;
+			sourceTree = "<group>";
+		};
+		D5D0C37517FA0BE20031834B /* include */ = {
+			isa = PBXGroup;
+			children = (
+				D5D0C37617FA0BE20031834B /* lber.h */,
+				D5D0C37717FA0BE20031834B /* lber_types.h */,
+				D5D0C37817FA0BE20031834B /* ldap.h */,
+				D5D0C37917FA0BE20031834B /* ldap_cdefs.h */,
+				D5D0C37A17FA0BE20031834B /* ldap_features.h */,
+				D5D0C37B17FA0BE20031834B /* ldap_schema.h */,
+				D5D0C37C17FA0BE20031834B /* ldap_utf8.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		D5D0C37D17FA0BE20031834B /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				D5D0C37E17FA0BE20031834B /* libcrypto.a */,
+				D5D0C37F17FA0BE20031834B /* liblber.a */,
+				D5D0C38017FA0BE20031834B /* libldap.a */,
+				D5D0C38117FA0BE20031834B /* libsasl2.a */,
+				D5D0C38217FA0BE20031834B /* libssl.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		D5DD80681803765B00F8F335 /* Buildings */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD80691803765B00F8F335 /* buildings */,
+				D5DD80891803765B00F8F335 /* buildings.plist */,
+			);
+			path = Buildings;
+			sourceTree = "<group>";
+		};
+		D5DD80691803765B00F8F335 /* buildings */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD806A1803765B00F8F335 /* agadmin.jpg */,
+				D5DD806B1803765B00F8F335 /* ageng.jpg */,
+				D5DD806C1803765B00F8F335 /* appliedscience.jpg */,
+				D5DD806D1803765B00F8F335 /* armsby.jpg */,
+				D5DD806E1803765B00F8F335 /* arts.jpg */,
+				D5DD806F1803765B00F8F335 /* atherton.jpg */,
+				D5DD80701803765B00F8F335 /* beaver.jpg */,
+				D5DD80711803765B00F8F335 /* biomechanics.jpg */,
+				D5DD80721803765B00F8F335 /* borland.jpg */,
+				D5DD80731803765B00F8F335 /* boucke.jpg */,
+				D5DD80741803765B00F8F335 /* brumbaugh.jpg */,
+				D5DD80751803765B00F8F335 /* brycejordan.jpg */,
+				D5DD80761803765B00F8F335 /* buckhout.jpg */,
+				D5DD80771803765B00F8F335 /* burrowes.jpg */,
+				D5DD80781803765B00F8F335 /* businessbuilding.jpg */,
+				D5DD80791803765B00F8F335 /* carnegie.jpg */,
+				D5DD807A1803765B00F8F335 /* carpenter.jpg */,
+				D5DD807B1803765B00F8F335 /* chambers.jpg */,
+				D5DD807C1803765B00F8F335 /* chandlee.jpg */,
+				D5DD807D1803765B00F8F335 /* chapel.jpg */,
+				D5DD807E1803765B00F8F335 /* chemistry.jpg */,
+				D5DD807F1803765B00F8F335 /* computer.jpg */,
+				D5DD80801803765B00F8F335 /* davey.jpg */,
+				D5DD80811803765B00F8F335 /* deike.jpg */,
+				D5DD80821803765B00F8F335 /* earthengineeringsciences.jpg */,
+				D5DD80831803765B00F8F335 /* eeeast.jpg */,
+				D5DD80841803765B00F8F335 /* eewest.jpg */,
+				D5DD80851803765B00F8F335 /* eisenhower.jpg */,
+				D5DD80861803765B00F8F335 /* eisenhowerparking.jpg */,
+				D5DD80871803765B00F8F335 /* engunit.jpg */,
+				D5DD80881803765B00F8F335 /* smeal.jpg */,
+			);
+			path = buildings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,10 +406,44 @@
 			files = (
 				D5D0C35917FA0BC90031834B /* InfoPlist.strings in Resources */,
 				D5D0C36117FA0BC90031834B /* Default.png in Resources */,
-				D5D0C36317FA0BC90031834B /* Default@2x.png in Resources */,
 				D5D0C36517FA0BC90031834B /* Default-568h@2x.png in Resources */,
 				D5D0C36817FA0BC90031834B /* MainStoryboard_iPhone.storyboard in Resources */,
 				D5D0C36B17FA0BC90031834B /* MainStoryboard_iPad.storyboard in Resources */,
+				D5D0C38C17FA0DEA0031834B /* Default-568@2x.png in Resources */,
+				D5D0C38E17FA0E290031834B /* Default@2x.png in Resources */,
+				D5D0C39217FA10470031834B /* psuSearch.png in Resources */,
+				D5DD808A1803765B00F8F335 /* agadmin.jpg in Resources */,
+				D5DD808B1803765B00F8F335 /* ageng.jpg in Resources */,
+				D5DD808C1803765B00F8F335 /* appliedscience.jpg in Resources */,
+				D5DD808D1803765B00F8F335 /* armsby.jpg in Resources */,
+				D5DD808E1803765B00F8F335 /* arts.jpg in Resources */,
+				D5DD808F1803765B00F8F335 /* atherton.jpg in Resources */,
+				D5DD80901803765B00F8F335 /* beaver.jpg in Resources */,
+				D5DD80911803765B00F8F335 /* biomechanics.jpg in Resources */,
+				D5DD80921803765B00F8F335 /* borland.jpg in Resources */,
+				D5DD80931803765B00F8F335 /* boucke.jpg in Resources */,
+				D5DD80941803765B00F8F335 /* brumbaugh.jpg in Resources */,
+				D5DD80951803765B00F8F335 /* brycejordan.jpg in Resources */,
+				D5DD80961803765B00F8F335 /* buckhout.jpg in Resources */,
+				D5DD80971803765B00F8F335 /* burrowes.jpg in Resources */,
+				D5DD80981803765B00F8F335 /* businessbuilding.jpg in Resources */,
+				D5DD80991803765B00F8F335 /* carnegie.jpg in Resources */,
+				D5DD809A1803765B00F8F335 /* carpenter.jpg in Resources */,
+				D5DD809B1803765B00F8F335 /* chambers.jpg in Resources */,
+				D5DD809C1803765B00F8F335 /* chandlee.jpg in Resources */,
+				D5DD809D1803765B00F8F335 /* chapel.jpg in Resources */,
+				D5DD809E1803765B00F8F335 /* chemistry.jpg in Resources */,
+				D5DD809F1803765B00F8F335 /* computer.jpg in Resources */,
+				D5DD80A01803765B00F8F335 /* davey.jpg in Resources */,
+				D5DD80A11803765B00F8F335 /* deike.jpg in Resources */,
+				D5DD80A21803765B00F8F335 /* earthengineeringsciences.jpg in Resources */,
+				D5DD80A31803765B00F8F335 /* eeeast.jpg in Resources */,
+				D5DD80A41803765B00F8F335 /* eewest.jpg in Resources */,
+				D5DD80A51803765B00F8F335 /* eisenhower.jpg in Resources */,
+				D5DD80A61803765B00F8F335 /* eisenhowerparking.jpg in Resources */,
+				D5DD80A71803765B00F8F335 /* engunit.jpg in Resources */,
+				D5DD80A81803765B00F8F335 /* smeal.jpg in Resources */,
+				D5DD80A91803765B00F8F335 /* buildings.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +457,15 @@
 				D5D0C35B17FA0BC90031834B /* main.m in Sources */,
 				D5D0C35F17FA0BC90031834B /* AppDelegate.m in Sources */,
 				D5D0C36E17FA0BC90031834B /* ViewController.m in Sources */,
+				D5D0C38A17FA0BE20031834B /* RHLDAPSearch.m in Sources */,
+				D5CA159B17FC40FF00C09AA4 /* SearchModel.m in Sources */,
+				D5CA15A117FC498700C09AA4 /* TableViewController.m in Sources */,
+				D52C4B1E180383A6002943CE /* BuildingViewController.m in Sources */,
+				D560827C1804AA4C00508E1C /* TextViewController.m in Sources */,
+				D5AC2F8818073C37000313A7 /* BuildingImageViewController.m in Sources */,
+				D5FBB8DC180DCED400AB3ABC /* PreferencesViewController.m in Sources */,
+				D5FBB8DF180DD3CB00AB3ABC /* Constants.m in Sources */,
+				D516ED57180F05CF00771A81 /* BuildingInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +563,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Penn State Search/Penn State Search-Prefix.pch";
 				INFOPLIST_FILE = "Penn State Search/Penn State Search-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Penn State Search/ldap/lib\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "Penn State Search/ldap/include";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -288,7 +579,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Penn State Search/Penn State Search-Prefix.pch";
 				INFOPLIST_FILE = "Penn State Search/Penn State Search-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Penn State Search/ldap/lib\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "Penn State Search/ldap/include";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -312,6 +608,7 @@
 				D5D0C37317FA0BC90031834B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
