@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D516ED57180F05CF00771A81 /* BuildingInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D516ED56180F05CF00771A81 /* BuildingInfo.m */; };
+		D524226E1815D0660004DCDC /* MyDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D524226D1815D0660004DCDC /* MyDataManager.m */; };
+		D52422711815D11B0004DCDC /* Buildings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D524226F1815D11B0004DCDC /* Buildings.xcdatamodeld */; };
 		D52C4B1E180383A6002943CE /* BuildingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D52C4B1D180383A6002943CE /* BuildingViewController.m */; };
 		D560827C1804AA4C00508E1C /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D560827B1804AA4C00508E1C /* TextViewController.m */; };
 		D5AC2F8818073C37000313A7 /* BuildingImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AC2F8718073C37000313A7 /* BuildingImageViewController.m */; };
@@ -79,6 +81,9 @@
 		D52422691815CDC20004DCDC /* DataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
 		D524226A1815CDC20004DCDC /* DataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
 		D524226B1815CDC20004DCDC /* DataSourceCellConfigurer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataSourceCellConfigurer.h; sourceTree = "<group>"; };
+		D524226C1815D0660004DCDC /* MyDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDataManager.h; sourceTree = "<group>"; };
+		D524226D1815D0660004DCDC /* MyDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDataManager.m; sourceTree = "<group>"; };
+		D52422701815D11B0004DCDC /* Buildings.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Buildings.xcdatamodel; sourceTree = "<group>"; };
 		D52C4B1C180383A6002943CE /* BuildingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildingViewController.h; sourceTree = "<group>"; };
 		D52C4B1D180383A6002943CE /* BuildingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildingViewController.m; sourceTree = "<group>"; };
 		D560827A1804AA4C00508E1C /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
@@ -214,6 +219,9 @@
 				D52422691815CDC20004DCDC /* DataSource.h */,
 				D524226A1815CDC20004DCDC /* DataSource.m */,
 				D524226B1815CDC20004DCDC /* DataSourceCellConfigurer.h */,
+				D524226C1815D0660004DCDC /* MyDataManager.h */,
+				D524226D1815D0660004DCDC /* MyDataManager.m */,
+				D524226F1815D11B0004DCDC /* Buildings.xcdatamodeld */,
 				D516ED53180F04E300771A81 /* Controllers */,
 			);
 			name = Models;
@@ -480,6 +488,8 @@
 				D5FBB8DC180DCED400AB3ABC /* PreferencesViewController.m in Sources */,
 				D5FBB8DF180DD3CB00AB3ABC /* Constants.m in Sources */,
 				D516ED57180F05CF00771A81 /* BuildingInfo.m in Sources */,
+				D524226E1815D0660004DCDC /* MyDataManager.m in Sources */,
+				D52422711815D11B0004DCDC /* Buildings.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -633,6 +643,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D524226F1815D11B0004DCDC /* Buildings.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D52422701815D11B0004DCDC /* Buildings.xcdatamodel */,
+			);
+			currentVersion = D52422701815D11B0004DCDC /* Buildings.xcdatamodel */;
+			path = Buildings.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D5D0C34317FA0BC90031834B /* Project object */;
 }
