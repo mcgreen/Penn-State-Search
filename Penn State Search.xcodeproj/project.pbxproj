@@ -72,6 +72,13 @@
 /* Begin PBXFileReference section */
 		D516ED55180F05CF00771A81 /* BuildingInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildingInfo.h; sourceTree = "<group>"; };
 		D516ED56180F05CF00771A81 /* BuildingInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildingInfo.m; sourceTree = "<group>"; };
+		D52422641815CD0E0004DCDC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreData.framework; sourceTree = "<group>"; };
+		D52422661815CDC20004DCDC /* DataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		D52422671815CDC20004DCDC /* DataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		D52422681815CDC20004DCDC /* DataManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataManagerDelegate.h; sourceTree = "<group>"; };
+		D52422691815CDC20004DCDC /* DataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
+		D524226A1815CDC20004DCDC /* DataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
+		D524226B1815CDC20004DCDC /* DataSourceCellConfigurer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataSourceCellConfigurer.h; sourceTree = "<group>"; };
 		D52C4B1C180383A6002943CE /* BuildingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildingViewController.h; sourceTree = "<group>"; };
 		D52C4B1D180383A6002943CE /* BuildingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildingViewController.m; sourceTree = "<group>"; };
 		D560827A1804AA4C00508E1C /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
@@ -201,6 +208,12 @@
 				D5CA159A17FC40FF00C09AA4 /* SearchModel.m */,
 				D516ED55180F05CF00771A81 /* BuildingInfo.h */,
 				D516ED56180F05CF00771A81 /* BuildingInfo.m */,
+				D52422661815CDC20004DCDC /* DataManager.h */,
+				D52422671815CDC20004DCDC /* DataManager.m */,
+				D52422681815CDC20004DCDC /* DataManagerDelegate.h */,
+				D52422691815CDC20004DCDC /* DataSource.h */,
+				D524226A1815CDC20004DCDC /* DataSource.m */,
+				D524226B1815CDC20004DCDC /* DataSourceCellConfigurer.h */,
 				D516ED53180F04E300771A81 /* Controllers */,
 			);
 			name = Models;
@@ -229,6 +242,7 @@
 		D5D0C34D17FA0BC90031834B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D52422641815CD0E0004DCDC /* CoreData.framework */,
 				D5D0C34E17FA0BC90031834B /* UIKit.framework */,
 				D5D0C35017FA0BC90031834B /* Foundation.framework */,
 				D5D0C35217FA0BC90031834B /* CoreGraphics.framework */,
@@ -560,6 +574,10 @@
 		D5D0C37217FA0BC90031834B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Penn State Search/Penn State Search-Prefix.pch";
 				INFOPLIST_FILE = "Penn State Search/Penn State Search-Info.plist";
@@ -576,6 +594,10 @@
 		D5D0C37317FA0BC90031834B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Penn State Search/Penn State Search-Prefix.pch";
 				INFOPLIST_FILE = "Penn State Search/Penn State Search-Info.plist";
